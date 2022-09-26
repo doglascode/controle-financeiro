@@ -8,6 +8,13 @@ export default createGlobalStyle`
     padding: 0;
   }
 
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+
   body {
     align-items: center;
     background-color: #ECECEC;
@@ -15,7 +22,7 @@ export default createGlobalStyle`
     font-family: "Montserrat", sans-serif;
     flex-direction: column;
     display: flex;
-    min-height: 90vh;
+    min-height: 100vh;
     justify-content: center;
     -webkit-tap-highlight-color: transparent;
   }
